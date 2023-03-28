@@ -1,0 +1,90 @@
+/* ---------- CSS RESET ---------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+/* ---------- HEAD ---------- */
+.head-container{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+.logo-list-container{
+    display: flex;
+    align-items: center;
+}
+/* LOGO */
+.logo-container img{
+    height: 35px;
+    cursor: pointer;
+    margin-right: 54px;
+}
+/* LINE */
+.line-container{
+    height: 60px;
+    width: 2px;
+    background-color: #ffffff;
+    /* margin-left: -120px; */
+}
+/* LIST */
+.list-container ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin-left: 54px;
+}
+.list-item a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: large;
+}
+.list-item a:hover{
+    text-decoration: underline;
+}
+/* BUTTON */
+.head-btn-container button{
+    padding: 9px 28px;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: large;
+    background-color: #BA0CC5;
+}
+
+/* ------------- MAIN --------------- */
+.main-container{
+    background-image: url(../assets/bg.png);
+    height: 86.7vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-style: normal;
+}
+.main-h1-container{
+    font-size: 2.7rem;
+}
+.main-para-container{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.main-btn-container button{
+    background-color: #BA0CC5;
+    border: none;
+    padding: 9px 24px;
+    margin-top: 49px;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 9px;
+    cursor: pointer;
+}
