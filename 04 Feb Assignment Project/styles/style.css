@@ -1,0 +1,74 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.all-container{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 30px;
+}
+
+/* STYLING OF HEAD */
+.head-container nav{
+    display: flex;
+    align-items: center;
+}
+.head-container nav .list-container ul{
+    display: flex;
+    gap: 35px;
+    margin-left: 60px;
+}
+.head-container nav .list-container ul li{
+    list-style: none;
+}
+.head-container nav .list-container ul a{
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+.head-container nav .list-container ul a:hover{
+    color: #5955B3;
+    text-decoration: underline;
+}
+.head-container nav .btn-container button{
+    padding: 10px 16px;
+    font-weight: 700;
+    border: none;
+    background-color: #5955B3;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-left: 570px;
+    cursor: pointer;
+}
+
+/* STYLING OF MAIN */
+.main-container{
+    display: flex;
+}
+.main-container .left-main-container h1{
+    margin-top: 137px;
+    font-size: 60px;
+}
+.main-container .left-main-container p{
+    color: #5a5757;
+    margin-top: 30px;
+    font-size: 12px;
+}
+.main-container .left-btn-container button{
+    background-color: #5955B3;
+    color: #ffffff;
+    margin-top: 60px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.main-container .right-main-container .right-img-container img{
+    height: 600px;
+}
